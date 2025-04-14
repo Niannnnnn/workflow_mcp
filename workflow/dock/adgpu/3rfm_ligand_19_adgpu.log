@@ -1,0 +1,184 @@
+AutoDock-GPU version: v1.6-release
+
+Running 1 docking calculation
+
+Cuda device:                              NVIDIA A100-PCIE-40GB (#1 / 2)
+Available memory on device:               40007 MB (total: 40444 MB)
+
+CUDA Setup time 0.283706s
+(Thread 82 is setting up Job #1)
+
+Running Job #1
+    Using heuristics: (capped) number of evaluations set to 9078841
+    Warning: The set number of evals is 24.34% of the uncapped heuristics estimate of 37295500 evals.
+             This means this docking may not be able to converge. Increasing --heurmax may improve
+             convergence but will also increase runtime.
+             AutoStop will not stop before 37.03% (3361598) of the set number of evaluations.
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.004349s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 9078841 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples | Best Inter + Intra
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+          5 |        25406 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         10 |        50268 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         15 |        74331 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         20 |        98029 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         25 |       121481 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         30 |       145122 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         35 |       168672 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         40 |       192573 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         45 |       217394 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         50 |       241014 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         55 |       264689 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         60 |       288511 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         65 |       312007 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         70 |       335644 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         75 |       359738 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         80 |       383500 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         85 |       407477 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         90 |       431079 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+         95 |       454888 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        100 |       479174 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        105 |       503378 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        110 |       527068 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        115 |       550697 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        120 |       574518 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        125 |       598252 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        130 |       621982 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        135 |       646480 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        140 |       670202 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        145 |       694292 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        150 |       718246 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        155 |       742670 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        160 |       767370 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        165 |       791324 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        170 |       815619 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        175 |       839633 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        180 |       863880 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        185 |       887776 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        190 |       911353 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        195 |       936233 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        200 |       960601 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        205 |       984769 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        210 |      1008908 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        215 |      1033138 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        220 |      1056404 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        225 |      1079718 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        230 |      1103411 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        235 |      1127409 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        240 |      1150614 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        245 |      1174132 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        250 |      1197769 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        255 |      1221220 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        260 |      1244853 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        265 |      1268376 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        270 |      1291812 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        275 |      1315639 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        280 |      1339504 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        285 |      1363423 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        290 |      1387165 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        295 |      1410743 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        300 |      1434392 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        305 |      1457889 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        310 |      1481400 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        315 |      1504738 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        320 |      1527974 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        325 |      1551180 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        330 |      1574481 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        335 |      1597808 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        340 |      1621460 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        345 |      1645251 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        350 |      1669483 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        355 |      1693386 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        360 |      1716934 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        365 |      1740686 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        370 |      1764475 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        375 |      1788113 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        380 |      1811737 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        385 |      1835693 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        390 |      1859299 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        395 |      1882892 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        400 |      1906309 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        405 |      1929473 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        410 |      1952938 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        415 |      1976078 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        420 |      1999397 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        425 |      2022848 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        430 |      2045959 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        435 |      2069180 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        440 |      2092370 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        445 |      2115489 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        450 |      2138770 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        455 |      2162259 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        460 |      2185877 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        465 |      2209456 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        470 |      2232700 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        475 |      2256006 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        480 |      2279388 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        485 |      2302522 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        490 |      2325881 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        495 |      2349400 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        500 |      2372492 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        505 |      2395994 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        510 |      2419154 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        515 |      2442730 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        520 |      2466574 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        525 |      2490421 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        530 |      2513919 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        535 |      2537356 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        540 |      2561375 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        545 |      2584931 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        550 |      2608687 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        555 |      2633060 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        560 |      2656779 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        565 |      2680177 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        570 |      2703400 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        575 |      2727064 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        580 |      2750710 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        585 |      2774637 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        590 |      2798432 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        595 |      2822665 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        600 |      2846734 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        605 |      2870600 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        610 |      2894546 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        615 |      2917965 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        620 |      2941466 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        625 |      2964741 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        630 |      2988621 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        635 |      3012818 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        640 |      3036609 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        645 |      3059920 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        650 |      3083382 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        655 |      3106861 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        660 |      3129974 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        665 |      3153276 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        670 |      3177007 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        675 |      3200897 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        680 |      3224640 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        685 |      3248598 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        690 |      3272199 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        695 |      3295671 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        700 |      3318863 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        705 |      3342921 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+        710 |      3366808 |16777216.00 kcal/mol |    0.00 +/-    0.00 kcal/mol |       0 |16777216.00 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                    0.00 +/-    0.00 kcal/mol combined.
+                              0 samples, best inter + intra 16777216.00 kcal/mol.
+
+
+Shutdown time 0.000735s
+
+Job #1 took 1.255 sec after waiting 0.341 sec for setup
+
+(Thread 82 is processing Job #1)
+Run time of entire job set (1 file): 1.723 sec
+Processing time: 0.115 sec
+
+All jobs (1) ran without errors.

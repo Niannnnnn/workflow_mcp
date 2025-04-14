@@ -1,0 +1,191 @@
+AutoDock-GPU version: v1.6-release
+
+**********************************************************
+**    AutoDock-GPU AUTODOCKTOOLS-COMPATIBLE DLG FILE    **
+**********************************************************
+
+
+    DOCKING PARAMETERS
+    ________________________
+
+
+Ligand file:                               /home/zhangfn/workflow/3rfm_ligand_13.pdbqt
+Grid fld file:                             /home/zhangfn/workflow/gpf/3rfm_ligand_13/3rfm_protein.maps.fld
+
+Random seed:                               1744616647, 1296703
+Number of runs:                            1
+Number of energy evaluations:              8108109
+Number of generations:                     42000
+Size of population:                        150
+Rate of crossover:                         80.000000%
+Tournament selection probability limit:    60.000000%
+Rate of mutation:                          2.000000%
+Maximal allowed delta movement:            +/- 6.000000A
+Maximal allowed delta angle:               +/- 90.000000
+
+Rate of local search:                      100.000000%
+Maximal number of local search iterations: 300
+Rho lower bound:                           0.010000
+Spread of local search delta movement:     2.000000A
+Spread of local search delta angle:        74.999999
+Limit of consecutive successes/failures:   4
+
+Handle symmetry during clustering:         YES
+RMSD tolerance:                            2.000000A
+
+Program call in command line was:          /home/zhangfn/AutoDock-GPU-develop/bin/autodock_gpu_64wi --ffile /home/zhangfn/workflow/gpf/3rfm_ligand_13/3rfm_protein.maps.fld --lfile /home/zhangfn/workflow/3rfm_ligand_13.pdbqt -nrun 1 
+
+
+    GRID PARAMETERS
+    ________________________
+
+
+Receptor name:                             3rfm_protein
+Number of grid points (x, y, z):           31, 31, 31
+Grid center (x, y, z):                     23.575000, -31.136000, -28.903000A
+Grid size (x, y, z):                       11.250000, 11.250000, 11.250000A
+Grid spacing:                              0.375000A
+
+
+    LIGAND PARAMETERS
+    ________________________
+
+
+Ligand name:                               /home/zhangfn/workflow/3rfm_ligand_13
+Number of atoms:                           15
+Number of rotatable bonds:                 1
+Number of atom types:                      3
+
+
+    DUMMY DATA (only for ADT-compatibility)
+    ________________________
+
+
+DPF> outlev 1
+DPF> ga_run 1
+DPF> fld /home/zhangfn/workflow/gpf/3rfm_ligand_13/3rfm_protein.maps.fld
+DPF> move /home/zhangfn/workflow/3rfm_ligand_13.pdbqt
+
+
+    COUNTER STATES
+    ________________________
+
+
+Number of energy evaluations performed:    1966432
+Number of generations used:                385
+
+
+    INPUT LIGAND PDBQT FILE:
+    ________________________
+
+
+INPUT-LIGAND-PDBQT: REMARK  Name = 
+INPUT-LIGAND-PDBQT: REMARK  1 active torsions:
+INPUT-LIGAND-PDBQT: REMARK  status: ('A' for Active; 'I' for Inactive)
+INPUT-LIGAND-PDBQT: REMARK    1  A    between atoms: C_5  and  C_14
+INPUT-LIGAND-PDBQT: REMARK                            x       y       z     vdW  Elec       q    Type
+INPUT-LIGAND-PDBQT: REMARK                         _______ _______ _______ _____ _____    ______ ____
+INPUT-LIGAND-PDBQT: ROOT
+INPUT-LIGAND-PDBQT: ATOM      1  C   UNL     1       9.284 -35.330 -34.771  0.00  0.00    +0.000 C 
+INPUT-LIGAND-PDBQT: ATOM      2  C   UNL     1       7.988 -32.067 -31.424  0.00  0.00    +0.000 C 
+INPUT-LIGAND-PDBQT: ATOM      3  C   UNL     1       9.909 -33.981 -32.421  0.00  0.00    +0.000 C 
+INPUT-LIGAND-PDBQT: ATOM      4  C   UNL     1       8.246 -34.660 -34.085  0.00  0.00    +0.000 C 
+INPUT-LIGAND-PDBQT: ATOM      5  N   UNL     1      10.462 -33.525 -31.270  0.00  0.00    +0.000 NA
+INPUT-LIGAND-PDBQT: ATOM      6  C   UNL     1       8.829 -31.935 -30.408  0.00  0.00    +0.000 C 
+INPUT-LIGAND-PDBQT: ATOM      7  C   UNL     1       7.846 -32.788 -32.618  0.00  0.00    +0.000 C 
+INPUT-LIGAND-PDBQT: ATOM      8  C   UNL     1      10.567 -35.255 -34.306  0.00  0.00    +0.000 C 
+INPUT-LIGAND-PDBQT: ATOM      9  N   UNL     1      10.881 -34.672 -33.149  0.00  0.00    +0.000 NA
+INPUT-LIGAND-PDBQT: ATOM     10  C   UNL     1      10.002 -32.708 -30.377  0.00  0.00    +0.000 C 
+INPUT-LIGAND-PDBQT: ATOM     11  C   UNL     1       8.650 -33.754 -33.083  0.00  0.00    +0.000 C 
+INPUT-LIGAND-PDBQT: ENDROOT
+INPUT-LIGAND-PDBQT: BRANCH   4  15
+INPUT-LIGAND-PDBQT: ATOM     12  N   UNL     1       6.629 -35.945 -35.332  0.00  0.00    +0.000 NA
+INPUT-LIGAND-PDBQT: ATOM     13  C   UNL     1       5.288 -36.183 -35.919  0.00  0.00    +0.000 C 
+INPUT-LIGAND-PDBQT: ATOM     14  O   UNL     1       5.976 -34.090 -34.234  0.00  0.00    +0.000 OA
+INPUT-LIGAND-PDBQT: ATOM     15  C   UNL     1       6.885 -34.834 -34.589  0.00  0.00    +0.000 C 
+INPUT-LIGAND-PDBQT: ENDBRANCH   4  15
+INPUT-LIGAND-PDBQT: TORSDOF 1
+
+
+    FINAL DOCKED STATE:
+    ________________________
+
+
+Run:   1 / 1
+Time taken for this run:   0.412s
+
+DOCKED: MODEL        1
+DOCKED: USER    Run = 1
+DOCKED: USER
+DOCKED: USER    Estimated Free Energy of Binding    =  -3.45 kcal/mol  [=(1)+(2)+(3)-(4)]
+DOCKED: USER
+DOCKED: USER    (1) Final Intermolecular Energy     =  -3.75 kcal/mol
+DOCKED: USER        vdW + Hbond + desolv Energy     =  -3.75 kcal/mol
+DOCKED: USER        Electrostatic Energy            =  +0.00 kcal/mol
+DOCKED: USER        Moving Ligand-Fixed Receptor    =  -3.75 kcal/mol
+DOCKED: USER        Moving Ligand-Moving Receptor   =  +0.00 kcal/mol
+DOCKED: USER    (2) Final Total Internal Energy     =  -0.35 kcal/mol
+DOCKED: USER    (3) Torsional Free Energy           =  +0.30 kcal/mol
+DOCKED: USER    (4) Unbound System's Energy         =  -0.35 kcal/mol
+DOCKED: USER
+DOCKED: USER
+DOCKED: REMARK  Name = 
+DOCKED: REMARK  1 active torsions:
+DOCKED: REMARK  status: ('A' for Active; 'I' for Inactive)
+DOCKED: REMARK    1  A    between atoms: C_5  and  C_14
+DOCKED: REMARK                            x       y       z     vdW  Elec       q    Type
+DOCKED: REMARK                         _______ _______ _______ _____ _____    ______ ____
+DOCKED: USER                              x       y       z     vdW  Elec       q    Type
+DOCKED: USER                           _______ _______ _______ _____ _____    ______ ____
+DOCKED: ROOT
+DOCKED: ATOM      1  C   UNL     1      21.483 -31.238 -33.552 +0.74 -0.00    +0.000 C  
+DOCKED: ATOM      2  C   UNL     1      19.936 -35.193 -31.208 +0.52 -0.00    +0.000 C  
+DOCKED: ATOM      3  C   UNL     1      19.512 -33.173 -33.230 -0.67 -0.00    +0.000 C  
+DOCKED: ATOM      4  C   UNL     1      21.493 -32.016 -32.373 -0.77 -0.00    +0.000 C  
+DOCKED: ATOM      5  N   UNL     1      18.391 -33.934 -33.281 -0.57 -0.00    +0.000 NA 
+DOCKED: ATOM      6  C   UNL     1      18.730 -35.619 -31.553 +0.09 -0.00    +0.000 C  
+DOCKED: ATOM      7  C   UNL     1      20.855 -34.183 -31.528 -0.70 -0.00    +0.000 C  
+DOCKED: ATOM      8  C   UNL     1      20.555 -31.487 -34.525 +0.84 -0.00    +0.000 C  
+DOCKED: ATOM      9  N   UNL     1      19.562 -32.361 -34.366 -0.42 -0.00    +0.000 NA 
+DOCKED: ATOM     10  C   UNL     1      18.013 -34.932 -32.548 -0.71 -0.00    +0.000 C  
+DOCKED: ATOM     11  C   UNL     1      20.677 -33.166 -32.383 -0.71 -0.00    +0.000 C  
+DOCKED: ENDROOT
+DOCKED: BRANCH   4  15
+DOCKED: ATOM     12  N   UNL     1      23.546 -30.929 -31.722 -0.74 -0.00    +0.000 NA 
+DOCKED: ATOM     13  C   UNL     1      24.602 -30.557 -30.749 -0.36 -0.00    +0.000 C  
+DOCKED: ATOM     14  O   UNL     1      22.237 -31.877 -30.153 +0.35 -0.00    +0.000 OA 
+DOCKED: ATOM     15  C   UNL     1      22.463 -31.659 -31.339 -0.62 -0.00    +0.000 C  
+DOCKED: ENDBRANCH   4  15
+DOCKED: TORSDOF 1
+DOCKED: TER
+DOCKED: ENDMDL
+________________________________________________________________________________
+
+
+    CLUSTERING HISTOGRAM
+    ____________________
+
+
+________________________________________________________________________________
+     |           |     |           |     |
+Clus | Lowest    | Run | Mean      | Num | Histogram
+-ter | Binding   |     | Binding   | in  |
+Rank | Energy    |     | Energy    | Clus|    5    10   15   20   25   30   35
+_____|___________|_____|___________|_____|____:____|____:____|____:____|____:___
+   1 |     -3.45 |   1 |     -3.45 |   1 |#
+_____|___________|_____|___________|_____|______________________________________
+
+
+    RMSD TABLE
+    __________
+
+
+_______________________________________________________________________
+     |      |      |           |         |                 |
+Rank | Sub- | Run  | Binding   | Cluster | Reference       | Grep
+     | Rank |      | Energy    | RMSD    | RMSD            | Pattern
+_____|______|______|___________|_________|_________________|___________
+   1      1      1       -3.45      0.00     11.26           RANKING
+
+Run time 0.418 sec
+Idle time 0.336 sec

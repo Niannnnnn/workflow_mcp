@@ -1,0 +1,121 @@
+AutoDock-GPU version: v1.6-release
+
+Running 1 docking calculation
+
+Cuda device:                              NVIDIA A100-PCIE-40GB (#1 / 2)
+Available memory on device:               40007 MB (total: 40444 MB)
+
+CUDA Setup time 0.281234s
+(Thread 111 is setting up Job #1)
+
+Running Job #1
+    Using heuristics: (capped) number of evaluations set to 8108109
+    Warning: The set number of evals is 32.43% of the uncapped heuristics estimate of 25000000 evals.
+             This means this docking may not be able to converge. Increasing --heurmax may improve
+             convergence but will also increase runtime.
+             AutoStop will not stop before 23.96% (1942585) of the set number of evaluations.
+    Local-search chosen method is: ADADELTA (ad)
+
+Rest of Setup time 0.004720s
+
+Executing docking runs, stopping automatically after either reaching 0.15 kcal/mol standard deviation of
+the best molecules of the last 4 * 5 generations, 42000 generations, or 8108109 evaluations:
+
+Generations |  Evaluations |     Threshold    |  Average energy of best 10%  | Samples | Best Inter + Intra
+------------+--------------+------------------+------------------------------+---------+-------------------
+          0 |          150 |119130.06 kcal/mol |92965.90 +/-30129.82 kcal/mol |       9 | 9104.71 kcal/mol
+          5 |        33400 |143182.27 kcal/mol | 7925.38 +/-16459.13 kcal/mol |      50 |  156.84 kcal/mol
+         10 |        63066 |12863.12 kcal/mol |  208.08 +/-   32.80 kcal/mol |      10 |  153.88 kcal/mol
+         15 |        91221 |  257.29 kcal/mol |  173.61 +/-   28.24 kcal/mol |       4 |  132.03 kcal/mol
+         20 |       118426 |  279.51 kcal/mol |  134.41 +/-   45.98 kcal/mol |       6 |   89.38 kcal/mol
+         25 |       144366 |  249.37 kcal/mol |  167.91 +/-   64.11 kcal/mol |       3 |   77.64 kcal/mol
+         30 |       169896 |  488.47 kcal/mol |  197.64 +/-   89.99 kcal/mol |       5 |   70.42 kcal/mol
+         35 |       195794 |  467.62 kcal/mol |  176.56 +/-   75.29 kcal/mol |       8 |   60.82 kcal/mol
+         40 |       220936 |  317.73 kcal/mol |  139.95 +/-   51.21 kcal/mol |       4 |   60.82 kcal/mol
+         45 |       246318 |  331.99 kcal/mol |  180.57 +/-   71.49 kcal/mol |       4 |   60.82 kcal/mol
+         50 |       272124 |  448.68 kcal/mol |  196.71 +/-   73.25 kcal/mol |       5 |   60.82 kcal/mol
+         55 |       297848 |  416.47 kcal/mol |   76.08 +/-   26.91 kcal/mol |       5 |   60.82 kcal/mol
+         60 |       324038 |  156.80 kcal/mol |   95.55 +/-   30.66 kcal/mol |       5 |   60.55 kcal/mol
+         65 |       348742 |  187.53 kcal/mol |   60.55 +/-    0.00 kcal/mol |       1 |   60.55 kcal/mol
+         70 |       373035 |   62.80 kcal/mol |   60.55 +/-    0.00 kcal/mol |       2 |   60.55 kcal/mol
+         75 |       396853 |   61.67 kcal/mol |   60.55 +/-    0.00 kcal/mol |       1 |   60.55 kcal/mol
+         80 |       420896 |   62.80 kcal/mol |   60.55 +/-    0.00 kcal/mol |       1 |   60.55 kcal/mol
+         85 |       445001 |   62.80 kcal/mol |   57.31 +/-    2.19 kcal/mol |       2 |   55.12 kcal/mol
+         90 |       468954 |   73.74 kcal/mol |   58.32 +/-    4.53 kcal/mol |       3 |   55.12 kcal/mol
+         95 |       492491 |   80.95 kcal/mol |   55.78 +/-    0.66 kcal/mol |       2 |   55.12 kcal/mol
+        100 |       515999 |   60.75 kcal/mol |   55.12 +/-    0.00 kcal/mol |       1 |   55.12 kcal/mol
+        105 |       539379 |   57.37 kcal/mol |   55.12 +/-    0.00 kcal/mol |       2 |   55.12 kcal/mol
+        110 |       562973 |   56.24 kcal/mol |   55.12 +/-    0.00 kcal/mol |       1 |   55.12 kcal/mol
+        115 |       586503 |   57.37 kcal/mol |   55.12 +/-    0.00 kcal/mol |       1 |   55.12 kcal/mol
+        120 |       610017 |   57.37 kcal/mol |   55.12 +/-    0.00 kcal/mol |       1 |   55.12 kcal/mol
+        125 |       633616 |   57.37 kcal/mol |   55.12 +/-    0.00 kcal/mol |       1 |   55.12 kcal/mol
+        130 |       657489 |   57.37 kcal/mol |   55.08 +/-    0.04 kcal/mol |       2 |   55.04 kcal/mol
+        135 |       681867 |   56.21 kcal/mol |   55.04 +/-    0.00 kcal/mol |       2 |   55.04 kcal/mol
+        140 |       706760 |   56.17 kcal/mol |   52.61 +/-    0.00 kcal/mol |       1 |   52.61 kcal/mol
+        145 |       731896 |   54.86 kcal/mol |   52.61 +/-    0.00 kcal/mol |       2 |   52.61 kcal/mol
+        150 |       756546 |   53.74 kcal/mol |   52.61 +/-    0.00 kcal/mol |       1 |   52.61 kcal/mol
+        155 |       780916 |   54.86 kcal/mol |   52.61 +/-    0.00 kcal/mol |       1 |   52.61 kcal/mol
+        160 |       805479 |   54.86 kcal/mol |   52.61 +/-    0.00 kcal/mol |       1 |   52.61 kcal/mol
+        165 |       830032 |   54.86 kcal/mol |   53.18 +/-    1.00 kcal/mol |       3 |   52.34 kcal/mol
+        170 |       854690 |   58.17 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        175 |       879527 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        180 |       904326 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        185 |       929554 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       2 |   52.34 kcal/mol
+        190 |       954045 |   53.47 kcal/mol |   52.34 +/-    0.00 kcal/mol |       2 |   52.34 kcal/mol
+        195 |       978216 |   53.47 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        200 |      1002329 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        205 |      1026528 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       2 |   52.34 kcal/mol
+        210 |      1050299 |   53.47 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        215 |      1075479 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        220 |      1101273 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       2 |   52.34 kcal/mol
+        225 |      1126719 |   53.47 kcal/mol |   52.34 +/-    0.00 kcal/mol |       2 |   52.34 kcal/mol
+        230 |      1151457 |   53.47 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        235 |      1176076 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        240 |      1200094 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       2 |   52.34 kcal/mol
+        245 |      1224162 |   53.47 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        250 |      1248066 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        255 |      1272020 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        260 |      1296154 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        265 |      1320252 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       3 |   52.34 kcal/mol
+        270 |      1344094 |   53.09 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        275 |      1368447 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        280 |      1393084 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        285 |      1417307 |   54.59 kcal/mol |   52.34 +/-    0.00 kcal/mol |       2 |   52.34 kcal/mol
+        290 |      1441350 |   53.47 kcal/mol |   52.34 +/-    0.00 kcal/mol |       1 |   52.34 kcal/mol
+        295 |      1465925 |   54.59 kcal/mol |   51.92 +/-    0.00 kcal/mol |       2 |   51.92 kcal/mol
+        300 |      1490277 |   53.04 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        305 |      1514461 |   54.17 kcal/mol |   52.61 +/-    0.70 kcal/mol |       2 |   51.92 kcal/mol
+        310 |      1539479 |   57.83 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        315 |      1564124 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        320 |      1588713 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       3 |   51.92 kcal/mol
+        325 |      1613747 |   52.67 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        330 |      1638725 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        335 |      1663367 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        340 |      1688338 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        345 |      1712684 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        350 |      1737619 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        355 |      1763787 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        360 |      1788959 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        365 |      1814080 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       2 |   51.92 kcal/mol
+        370 |      1838951 |   53.04 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        375 |      1864431 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       2 |   51.92 kcal/mol
+        380 |      1889388 |   53.04 kcal/mol |   51.92 +/-    0.00 kcal/mol |       2 |   51.92 kcal/mol
+        385 |      1914244 |   53.04 kcal/mol |   51.92 +/-    0.00 kcal/mol |       1 |   51.92 kcal/mol
+        390 |      1938917 |   54.17 kcal/mol |   51.92 +/-    0.00 kcal/mol |       2 |   51.92 kcal/mol
+        395 |      1963908 |   53.04 kcal/mol |   51.92 +/-    0.00 kcal/mol |       2 |   51.92 kcal/mol
+------------+--------------+------------------+------------------------------+---------+-------------------
+
+                                   Finished evaluation after reaching
+                                   51.92 +/-    0.00 kcal/mol combined.
+                              7 samples, best inter + intra    51.92 kcal/mol.
+
+
+Shutdown time 0.001661s
+
+Job #1 took 0.286 sec after waiting 0.337 sec for setup
+
+(Thread 111 is processing Job #1)
+Run time of entire job set (1 file): 0.727 sec
+Processing time: 0.097 sec
+
+All jobs (1) ran without errors.

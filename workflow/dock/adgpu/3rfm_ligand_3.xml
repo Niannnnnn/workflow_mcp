@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<autodock_gpu>
+	<version>v1.6-release</version>
+	<arguments>--ffile /home/zhangfn/workflow/gpf/3rfm_ligand_3/3rfm_protein.maps.fld --lfile /home/zhangfn/workflow/3rfm_ligand_3.pdbqt -nrun 1</arguments>
+	<grid>/home/zhangfn/workflow/gpf/3rfm_ligand_3/3rfm_protein.maps.fld</grid>
+	<ligand>/home/zhangfn/workflow/3rfm_ligand_3.pdbqt</ligand>
+	<seed>1744616664 1298200</seed>
+	<ls_method>ad</ls_method>
+	<autostop>yes</autostop>
+	<heuristics>yes</heuristics>
+	<run_requested>1</run_requested>
+	<runs>
+		<run id="1">
+			<free_NRG_binding>   671.96</free_NRG_binding>
+			<final_intermol_NRG> 669.88</final_intermol_NRG>
+			<internal_ligand_NRG>-3.54</internal_ligand_NRG>
+			<torsonial_free_NRG> 2.09</torsonial_free_NRG>
+			<tran0>6.878506 4.301457 2.018121</tran0>
+			<axisangle0>-0.74731402 0.27661096 0.60415903 314.259125</axisangle0>
+			<ndihe>7</ndihe>
+			<dihe0>332.817017 197.156860 266.424194 130.963486 306.539825 292.452972 212.816071
+			</dihe0>
+		</run>
+	</runs>
+	<result>
+		<clustering_histogram>
+			<cluster cluster_rank="1" lowest_binding_energy="671.96" run="1" mean_binding_energy="671.96" num_in_clus="1" />
+		</clustering_histogram>
+		<rmsd_table>
+			<run rank="1" sub_rank="1" run="1" binding_energy="671.96" cluster_rmsd="0.00" reference_rmsd="10.77" />
+		</rmsd_table>
+	</result>
+</autodock_gpu>
